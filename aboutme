@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Phillip J. Smith | Home</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="portfolio.html">Portfolio</a> |
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <h1>About Me</h1>
+        <img src="https://avatars2.githubusercontent.com/u/30513539?v=4&u=f8155d71f5b3914e3b63ac29bc4cf1bf81570108&s=400" />
+        <p>My name is Phillip J. Smith and I live in Terlingua, Texas.</p>
+        <p><strong>Things I Really Like</strong></p>
+          <ul>
+            <li><a href="https://www.facebook.com/dymphna.delarosa.5">My Girlfreind</a>
+            <li><a href="https://en.wikipedia.org/wiki/Artificial_intelligence">Computing</a>
+            <li><a href="https://www.facebook.com/groups/169785333057/">Rock Hunting</a>
+            <li><a href="https://visitbigbend.com/">Camping</a>
+            <li><a href="http://www.wsop.com/">Poker</a>
+            <li><a href="https://www.youtube.com/watch?v=2sZUAprS5KI">Precious Metals Recovery and Refining</a>
+            <li><a href="https://youtu.be/P56TrUDdUr4?list=PL4v2oTaJMXFab5Jml4XuOAED8184gEUzW">Mandelbrot Fractal Sets</a>
+          </ul>
+      <div></div>
+          <h1>My Background</h1>
+        <p> I was a member of the National Honor Society in junior high school. I then spent three years in tenth grade because I became more interested in girls, cars, partying and rock and roll. I bounced around alot between Houston, Austin, Terlingua and northern California for a few years having a wonderfull time.</p>
+        <p>Then I was married in 1987 and had to settle down so I worked as a mechanic, a machinist, carpenter, cook etc...</p>
+        <p>In 1989 I was hired at a civil engineering firm in Houston to hold the stick on a survey crew. I took a surveying class at the community collage and within six months I was running my own crew. As time progressed I had a couple of children and transferred departments at work to become a "Field Project Representative" (inspector and liason for civil engineering projects).</p>
+        <p><strong>Things were going great!</strong></p>
+        <p>In 1994 we won a sum of money from the Texas Lottery, quit our jobs and moved to Terlingua, Texas to start a new life.</p>
+        <p>I started a mechanic shop and took a job as superintendant for a local mining company. After that played out I was hired by the Study Butte Water Supply Corporation in 1998 as their manager and inspector. Working with state and federal funding we contracted to build from the ground up a non-profit community potable water supply. In 1998 I also started a company called Terlingua Gem and Mineral which was quite lucrative until I had to ramp down due to water company obligations.</p>
+        <p>In 2012 I was able to win my way into a World Poker Tour Tournament and realized I could make money playing cards. I resigned my position with the water company, started travelling part time to play poker and took a job at a local restaurant and bar as a part time bartender.</p>
+        <p>In 2015 I realized that I did not want to continue with the bartending lifestyle (I seldom drink anymore) and did not want to keep travelling so much (I like flying but I dislike crowded airports) or being away from home frequently. I quit my job, bought a motorhome and am now a full time RV'er with my S.O.</p>
+      <div></div>
+      <h1>Why I Decided to Learn Programming</h1>
+        <p>I discovered my love for computing when I received a Timex Sinclair as a gift when I was eightteen years old. There were no programs available so I had to learn Basic and dabbled in machine code a bit. I decided that I needed to learn how to work with computer hardware after a technician wiped the hard drive on a critical machine at my job and have done all my own modifications and repairs since then. I believe skills in programming will further my adventure in computing and allow for a mobile lifestyle in the future.</p>
+        <div></div>
+  <h1>Credits</h1>
+          <p>I created this doccument using <a href="https://html5-editor.net/">html5-editor.net</a> as a workspace only.</p>
+            <div></div>
+            <div></div>
+        <footer>
+            <a href="https://www.facebook.com/Permagrind">Facebook</a>
+            <a href="https://github.com/Sazontajin">Github</a>
+          <a href="https://www.youtube.com/channel/UC6y8M6ZJnA25K-YpBQW1rNA">YouTube</a>
+            <p><strong>Page 1</strong></p>
+        </footer>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Phillip J. Smith | Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="portfolio.html">Portfolio</a> |
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <h1>My Portfolio</h1>
+       <ul>
+         <li><strong>My Coder Camp Personal Portfolio Website</strong>
+            <p>This doccument is my first recent peice of work.</p>
+      </ul>
+           <div></div>
+        <h1>Credits</h1>
+            <p>I created this doccument using <a href="https://html5-editor.net/">html5-editor.net</a> as a workspace only.</p>
+           <div></div>
+        <footer>
+            <a href="https://www.facebook.com/Permagrind">Facebook</a>
+            <a href="https://github.com/Sazontajin">Github</a>
+          <a href="https://www.youtube.com/channel/UC6y8M6ZJnA25K-YpBQW1rNA">YouTube</a>
+            <p><strong>Page 2</strong></p>
+        </footer>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Phillip J. Smith | Contact</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="portfolio.html">Portfolio</a> |
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+      <h1>My Contact Info</h1>
+        <div></div>
+          <p><strong>Phillip J. Smith</strong></p>
+          <p><strong>PO Box 597</strong></p>
+          <p><strong>Terlingua, Texas 79852</strong></p>
+          <p><strong>(469)480-0007</strong></p>
+        <h1><a href="drusyvug@hotmail.com.com">drusyvug@hotmail.com</a></h1>
+        <div></div>
+        <h1>Leave me a note:</h1>
+        <form action="https://formspree.io/drusyvug@hotmail.com" method="POST">
+          <label><strong>NAME</strong></label>
+          <input name="name" type="text">
+          <label><strong>EMAIL</strong></label>
+          <input name="_replyto" type="email">
+          <input type="hidden" name="_subject" value="New submission!">
+            <div></div>
+          <p><strong>Message</strong></p>
+       <textarea row="50" cols="100"></textarea>
+          <input type="submit" value="Send">
+        </form>
+          <div></div>
+          <div></div>
+          <div></div>   
+          <h1>Credits</h1>
+          <p>I created this doccument using <a href="https://html5-editor.net/">html5-editor.net</a> as a workspace only.</p>
+          <div></div>
+        <footer>
+            <a href="https://www.facebook.com/Permagrind">Facebook</a>
+            <a href="https://github.com/Sazontajin">Github</a>
+            <a href="https://www.youtube.com/channel/UC6y8M6ZJnA25K-YpBQW1rNA">YouTube</a>
+            <p><strong>Page 3</strong></p>
+        </footer>
+    </body>
+</html>
