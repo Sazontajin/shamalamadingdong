@@ -1,0 +1,2 @@
+<!-- CSS media query on a link element -->
+<link rel="stylesheet" media="(max-width: 800px)" href="example.css" />
