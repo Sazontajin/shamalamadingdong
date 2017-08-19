@@ -1,0 +1,200 @@
+<link rel="stylesheet" type="text/css" href="main.css">
+
+<div id="notecards">
+  <div class="notecard">
+    <div class="front">
+      <span class="word">Titanosaur</span>
+    </div>
+    <div class="back">
+      <div class="definition">
+        122 ft, 70 tons, Herbivore, Patagonia about 100 to 95 million years ago
+        <div class="photo"></div>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+
+
+
+.notecard {
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  width: 300px;
+  height: 180px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 20px;
+  font-family: Roboto, sans-serif;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.notecard:hover {
+  transform: rotatey(180deg);
+  -webkit-transform: rotatey(180deg);
+  -moz-transform: rotatey(180deg);
+  -ms-transform: rotatey(180deg);
+  -o-transform: rotatey(180deg);
+}
+
+.notecard .front, .notecard .back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+}
+
+.notecard .front {
+  z-index: 3;
+  font-size: 20px;
+}
+
+.notecard .front .word {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+
+.notecard .back {
+  z-index: 1;
+  word-wrap: break-word;
+  line-height: 1.6;
+  transform: rotatey(-180deg);
+  -webkit-transform: rotatey(-180deg);
+  -moz-transform: rotatey(-180deg);
+  -ms-transform: rotatey(-180deg);
+  -o-transform: rotatey(-180deg);
+}
+
+.notecard .back .definition {
+  background: repeating-linear-gradient(to bottom, white, white 14%, blue 1%, white 15%);
+  width: 100%;
+  height: 100%;
+}
+
+.notecard .back .definition .photo {
+  content: url(titanosaur.jpg);
+  object-fit: cover;
+  width: 60%;
+  margin: 0px auto;
+}
+
+
+
+$stripe-properties: to bottom, 15%, blue, white;
+@mixin hover-color($color) {
+   &:hover{
+       color: $color;
+   }
+}
+@mixin transition($time){
+  transition: $time;
+  -webkit-transition: $time;
+  -moz-transition: $time;
+  -o-transition: $time;
+}
+@mixin transform-style($style){
+   transform-style: $style;
+  -moz-transform-style: $style;
+  -o-transform-style: $style;
+  -ms-transform-style: $style;
+  -webkit-transform-style: $style;
+}
+@mixin backface-visibility($visibility: hidden){
+  backface-visibility: $visibility;
+  -webkit-backface-visibility: $visibility;
+  -moz-backface-visibility: $visibility;
+  -ms-backface-visibility: $visibility;
+  -o-backface-visibility: $visibility;
+}
+
+@mixin stripes($direction, $width-percent, $stripe-color, $stripe-background: #FFF) {
+  background: repeating-linear-gradient(
+    $direction,
+    $stripe-background,
+    $stripe-background ($width-percent - 1),
+    $stripe-color 1%,
+    $stripe-background $width-percent
+  );
+}
+
+@mixin transform($transformation) {
+  transform: $transformation;
+  -webkit-transform: $transformation;
+  -moz-transform: $transformation;
+  -ms-transform: $transformation;
+  -o-transform: $transformation;  
+}
+
+@mixin photo-content($file) {
+  content: url(#{$file}.jpg); 
+  object-fit: cover;
+}
+//Add your own mixins here
+
+.notecard {
+  @include transition(0.4s);
+  @include transform-style(preserve-3d);
+  &:hover{
+      @include transform (rotatey(180deg));
+    }
+  width: 300px;
+  height: 180px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 20px;
+  font-family: Roboto, sans-serif;
+  box-shadow: 1px 1px 2px 2px rgba(0,0,0,.2);
+  
+  .front, .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    @include backface-visibility;
+    
+  }
+  
+  .front {
+  z-index: 3;
+  font-size: 20px;
+
+    .word {
+      display: block;
+      text-align: center;
+      position: relative;
+      top: 40%;
+    }    
+  }
+  
+  
+  .back {
+  z-index: 1;
+  word-wrap: break-word;
+  line-height: 1.6;
+    @include transform(rotatey(-180deg));
+    
+    .definition {
+      @include stripes($stripe-properties...);
+      width: 100%;
+      height: 100%;
+            
+      .photo {
+        @include photo-content('titanosaur');
+        width: 60%;
+        margin: 0px auto;
+      }
+    }
+  }
+}
