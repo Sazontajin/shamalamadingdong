@@ -1,0 +1,82 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="Tribute Page" content="A Tribute to William James Sidis, prodigy">
+  <meta name="PhillipJ.Smith" content="Terlingua, Texas Levitating Tetrahedron Hydrofoil Flying Pyramid Super Yacht">
+  <link rel="icon" href="../../../../favicon.ico">
+
+  <title>Prodigy: William James Sidis</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="jumbotron.css" rel="stylesheet">
+</head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Prodigy: William James Sidis</h1>
+        <p>A Remarkable Human Being</p>
+        
+        <div style="font-size:145%;"> 
+          <div class= "col-md-6";>
+           <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/William_James_Sidis_1914.jpg">William James Sidis at his <a href="https://en.wikipedia.org/wiki/Harvard_University"target="_blank">Harvard </a>graduation</a>
+          </div>
+        </div> 
+      
+        <div class="col-md-4";>
+          <p><img class="img-responsive"src="https://upload.wikimedia.org/wikipedia/commons/5/55/8-cell-simple.gif">The object shown here is the 4D equivalent of a cube, known as a <a href="https://en.wikipedia.org/wiki/Tesseract"target="_blank">tesseract</a>. William James Sidis was a specialist in the mathematics of 4D bodies.</p>
+        </div>
+      </div>
+    </div>
+
+ <div class="container">
+   <div class="row">
+     <div class="col-md-6">
+       <h2>Early Life as a Prodigal Genius</h2>
+       <ul style="font-size:120%;">
+         <li>Capable of reading the <a href="https://www.nytimes.com/"target="_blank">New York Times </a>at the age of 18 months.</li>
+         <li>By 8 years of age, he taught himself 8 languages (Armenian, French, German, Greek, Hebrew, Latin, Russian and Turkish).</li>
+         <li>At age 8 he invented a language he named <a                         href="https://en.wikipedia.org/wiki/William_James_Sidis#Vendergood_language"target="_blank">Vendergood</a>.</li>
+         <li>Was refused entry to <a href="https://en.wikipedia.org/wiki/Harvard_University"target="_blank">Harvard </a> at age 9 due to his young age.</li>
+         <li>Entered <a href="https://en.wikipedia.org/wiki/Harvard_University"target="_blank">Harvard </a> at the age of eleven.</li>
+         <li>At age 12 he gave a lecture on <a href="https://en.wikipedia.org/wiki/Four-dimensional_space"target="_blank">four-dimensional bodies </a>to the Harvard Mathematical Club.
+         <li>Was friends with child prodigy <a href="https://en.wikipedia.org/wiki/Norbert_Wiener"target="_blank">Norbert Wiener</a>, pioneer of <a href="https://en.wikipedia.org/wiki/Cybernetics"target="_blank">cybernetics.</a></li>
+         <li>Earned his Bachelor of Arts degree, cum laude, on June 18, 1914, at age 16.
+         <li>Claimed to speak over 40 languages and dialects.</li>
+       </ul>
+     </div>
+     
+     <div class="col-md-6">
+       <h2>Teaching, Post-Graduate Work and Writing and Philosophy</h2>
+         <ul style="font-size:120%;">
+           <li>He served for a brief time at the <a href="https://en.wikipedia.org/wiki/League_of_Nations"target="_blank">League of Nations</a>.</li>
+           <li>In 1915, at the age of 17, as a graduate fellow working toward his doctorate at the William Marsh Rice Institute for the Advancement of Letters, Science, and Art (now <a href="https://en.wikipedia.org/wiki/Rice_University"target="_blank">Rice University</a>) in Houston, he worked as a mathematics teaching assistant.
+           <li>Enrolled at the <a href="http://hls.harvard.edu/"target="_blank">Harvard Law School</a> in September 1916.</li>
+           <li>Developed a <a href="https://en.wikipedia.org/wiki/Libertarianism"target="_blank">libertarian</a> philosophy based on individual rights and "the American social continuity".</li>
+           <li>Noted for numerous writings on many subjects including Cosmology, Anthropology, Philology, and Transportation Systems.</li> 
+         </ul>
+       
+       </div>  
+     </div>
+   
+      <hr>
+   
+       <p><a class="btn btn-primary" href="https://en.wikipedia.org/wiki/William_James_Sidis"target="_blank"role="button">Learn more &raquo;</a></p>
+   
+      <footer>
+        <p>PhillipJ.Smith 2017</p>
+      </footer>
+   
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript -->
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
